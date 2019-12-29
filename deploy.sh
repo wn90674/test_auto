@@ -1,8 +1,6 @@
 #! /bin/sh
-rm -rf dist
-mkdir dist
-cp 1.ts js
-tsc 1.ts
+npm run build
+cp dist/* ../HelloCordova/platforms/ios/www/
 git add .
 git commit -m$1
 git pull
