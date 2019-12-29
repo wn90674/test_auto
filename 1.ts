@@ -1,3 +1,4 @@
+/* animal */
 class Animal {
      private name: string;
      _age: number;
